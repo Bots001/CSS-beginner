@@ -1,0 +1,429 @@
+/*h1{
+    color: red;
+    background-color: rosybrown;
+    padding: 20px;
+}*/
+
+
+
+p1{
+    text-align: justify;
+    font-size: large;
+    font-family:'Franklin Gothic Medium';
+    font-style: italic;
+    color: royalblue;
+    
+}
+
+p5{
+    text-decoration: salmon;
+    text-align-last: justify;
+}
+
+h1xx{
+    color: springgreen;
+    
+}
+
+.intro h1{
+    background: #fff;
+}
+
+.intro >h1 {
+    font: outline;
+    background:lightblue;
+}
+
+
+
+.intro{
+    font-display:inherit;;
+    font-style: italic;
+    font-family: monospace;
+    font-size: larger;
+
+}
+
+.background{
+    background:red;
+    font-family: fantasy;
+    text-align: center;
+    background-image: url(Untitled.png);
+  background-repeat: repeat;
+}
+
+.border{
+    border-width: 700;
+     border-style: dotted;
+    border-color: royalblue;
+}
+
+.border button{
+    background-color: brown;
+    border-style: solid;
+    border-width: 10px;
+    border-color: yellow;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.p1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: yellow;
+}
+
+.hw{
+    margin-top: 250px;
+    margin-bottom:250px;
+}
+
+.hw1{
+    background: yellow;
+    color: black;
+    font-style:italic;
+    
+}
+
+.outline{
+    padding: 30px;
+    border:1px solid black;
+    background: blue;
+    margin-bottom:dotted;
+    outline: 5px solid gray;
+}
+
+.outline h1 {
+    background: blue;
+}
+
+.texf{
+    text-align: center;
+    padding: 30px;
+    text-decoration: blanchedalmond;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    
+}
+
+.texf h1{
+    background: #fff;
+    font-weight: bold;
+    text-shadow: 3px 2px black;
+
+}
+
+.link a{
+    color: lime;
+}
+
+.link h1{
+    background-color:white;
+    text-align: center;
+
+}
+
+.link a :hover{
+    color: darkred;
+
+}
+
+.so{
+    text-align: center;
+}
+
+.google{
+    padding: 10px;
+    color: darksalmon;
+    border: none;
+    border-radius: 8px;
+    background: #000;
+}
+
+.twitter{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    background: rgb(74, 6, 235);
+}
+
+.insta{
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 8px;
+    background: rgb(250, 2, 2);
+}
+
+.so h1{
+    background-color: white;
+    color: black;
+}
+
+.list ol{
+    background: white;
+
+    
+
+}
+
+ol li{
+    color: chocolate;
+}
+.list h1{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.table{
+    border: 2px;
+}
+
+.table th{
+    width: 100px;
+    text-align: center;
+    color:black;
+    background:blue;
+}
+
+.table th{
+    border: 10px;
+    font-size:large;
+
+}
+
+tr :hover{
+    background-color: blue;
+}
+
+.static{
+    color: greenyellow;
+    position: static;
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+.relative{
+    position: relative;
+    left: 30px;
+    border: 3px solid gray;
+}
+
+.fixed{
+    position:fixed;
+    
+    border: 3px solid gray;
+}
+
+.sticky{
+    position: static;
+    top: 0;
+    border: 3px solid gray;
+    background:darkblue;
+    padding: 20px;
+}
+
+.ni{
+    text-align: center;
+    padding: 30px;
+    text-decoration: blanchedalmond;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.float{
+    
+    padding: 30px;
+    background: darkblue;
+    color: white;
+}
+
+.float img{
+    padding-right: 15px;
+    background-color: wheat;
+}
+
+#floatex div{
+    padding: 20px 0;
+    width: 100px;
+}
+
+.green{
+    background: green;
+    float:left;
+    padding: 10px;
+    
+}
+
+.red{
+    background-color: red;
+    padding: 10px;
+
+}
+
+.blue{
+    background: blue;
+    padding: 10px;
+}
+
+.yellow{
+    float:right;
+    background: yellow;
+    padding: 10px;
+}
+
+.weblayout div{
+    padding: 20px 0;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navbar{
+    background: rgb(85, 243, 85);
+}
+
+.menu{
+    background: rgb(75, 75, 219);
+    float: left;
+    width: 33.33%;
+    height: 200px;
+}
+
+.content{
+    background: skyblue;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+}
+
+.sidebar{
+    background:tomato;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+}
+
+.fotter{
+    background-color: cadetblue;
+    clear: both;
+}
+
+.psuedoele p::first-letter{
+    color: rgba(134, 0, 0, 0.726);
+    font-style:italic;
+    font-size: 100;
+}
+
+.psuedoele h1::first-letter{
+    color: crimson;
+
+}
+
+.opacity{
+    background: #000;
+    width: 500px;
+    color: cyan;
+}
+
+.opacity img{
+    width: 500px;
+    background: #000;
+    opacity: 0.5;
+    
+    
+}
+
+.opacity img:hover{
+    opacity: 1;
+    
+}
+
+.selector span[title]{
+    background: blue;
+}
+
+.selector span[title="no"]{
+    background: red;
+}
+
+.forms{
+    padding: 20px 2px;
+    background: #f2f2f2;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    border: 6px solid;
+    box-sizing: border-box;
+    border-radius: 40px;
+    
+}
+
+button[type="submit"]{
+    width: 100%;
+    background: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+button[type="submit"]:hover{
+    background: yellow;
+
+}
+input[type="text"]:hover{
+    border-color: blue;
+}
+
+
+.forms h2{
+    text-transform: capitalize;
+}
+
+input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    border: 6px solid;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+input[type="email"]:hover{
+    border-color:red;
+}
+
+.counter{
+    padding: 20px 20px;
+    background: #f2f2f2;
+}
+
+h2::before{
+    counter-increment: videos;
+    content: "course #" counter(videos) ": ";
+}
+
+@media screen and (max-width: 900px){
+    body {
+        background: lightcoral;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: deepskyblue;
+    }
+}
+
+.counter h1{
+    font-size: 2cm !important;
+}
+
+#counter h1{
+    font-size: 3cm
+}
